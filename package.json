@@ -5,7 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "build": "tsc",
-    "start": "dotenvx node dist/server.js",
+    "start": "node src/server.js",
     "dev": "ts-node-dev src/server.ts",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\"",
