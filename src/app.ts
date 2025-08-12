@@ -13,7 +13,7 @@ app.use(express.json())
 
 app.use(
   cors({
-    origin: 'https://streamline-backend-4lk7.onrender.com',
+    origin: 'https://streamline-navi.netlify.app/login',
     credentials: true,
   })
 )
