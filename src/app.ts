@@ -13,7 +13,7 @@ app.use(express.json())
 
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://streamline-backend-4lk7.onrender.com',
     credentials: true,
   })
 )
